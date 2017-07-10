@@ -1,0 +1,18 @@
+#include <iostream>
+#include <thread>
+
+using namespace std;
+
+void threadFunction(){
+    cout << "in threadFunction" << endl;
+
+}
+
+
+int main(){
+    //thread t(&threadFunction);
+    cout << "in main thread";
+    //t.join();
+
+    return 0;
+}
